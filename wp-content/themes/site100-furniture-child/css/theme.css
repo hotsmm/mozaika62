@@ -1,0 +1,329 @@
+/*** ALL ***/
+.bg-light {
+	background-color: #f8f9fa;
+}
+
+.breadcrumbs img {
+    position: relative;
+    bottom: 3px;
+    transition: .25s;
+}
+
+h1 {
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: 5rem;
+}
+
+h2 {
+	margin-bottom: 0.5rem;
+	font-family: inherit;
+	font-weight: 500;
+	line-height: 1;
+	color: #323232;
+}
+
+.quiz-section h3 {
+	font-size: 20px;
+}
+/*** END ALL ***/
+
+
+/*** BUTTONS ***/
+.btn-primary2 {
+	border-radius: 30px;
+	max-width: 100%;
+	max-width: 450px;
+	/*height: 60px;*/
+	color: white;
+	background: #25674a;
+	box-shadow: 0 0 3px 0 #596660;
+	font-size: 1.25rem !important;
+}
+
+.btn-primary2:hover{
+	opacity: .85;
+	box-shadow: 0 0 25px 5px white;
+	color: white;
+}
+
+.btn-primary3 {
+	border-radius: 15px;
+	max-width: 100%;
+	width: 210px;
+	color: white;
+    background: #00a3d3;
+	/* background: #e10585; */
+	font-size: 1rem;
+	transition: .25s;
+	box-shadow: 0 0 5px 0 white;
+	padding: 5px;
+	margin: 0px 15px;
+}
+
+.btn-primary3:hover{
+	opacity: .9;
+	box-shadow: 0 0 12px 3px white;
+}
+
+.btn-corporate-color-1 {
+    color: #fff;
+    background-color: #25674a;
+    border-color: #25674a;
+	border-radius: 20px;
+	font-size: 16px;
+}
+
+.btn-corporate-color-1:hover {
+    /*color: #fff;
+    background-color: #dc4700;
+    border-color: #dc4700;*/
+	opacity: .9;
+	box-shadow: 0 0 12px 3px white;
+}
+
+.btn-corporate-color-1:focus {
+    box-shadow: 0 0 1px 3px rgba(255,82,0,.5);
+}
+
+
+/* Corporate color outline 1 */
+.btn-corporate-color-outline-1 {
+    color: #25674a;
+    background-color: none;
+    border-color: #25674a;
+	border-radius: 20px;
+	font-size: 16px;
+}
+
+.btn-corporate-color-outline-1:hover {
+    color: #fff;
+    background-color: #25674a;
+    border-color: #25674a;
+	opacity: .9;
+	box-shadow: 0 0 12px 3px white;
+}
+
+.btn-corporate-color-outline-1:active {
+    color: #fff;
+    background-color: #25674a;
+    border-color: #25674a;
+	opacity: .8;
+	box-shadow: 0 0 12px 3px white;
+}
+
+.btn-corporate-color-outline-1:focus {
+    box-shadow: 0 0 1px 3px rgba(255,82,0,.5);
+}
+/* End corporate color outline 1 */
+/*** END BUTTONS ***/
+
+
+/* HEADER */
+.header-padding-top {
+	padding-top: 150px;
+}
+/* END HEADER */
+
+
+/*** ARCHIVE PRODUCT ***/
+h4, .widget-title {
+    font-family: HelveticaNeueCyr-Bold;
+    color: #4b4b4b;
+    font-size: 14px;
+    margin-bottom: 5px;
+    display: block;
+    text-transform: uppercase;
+}
+
+.form-check-label, .cat-item a,
+.woocommerce-widget-layered-nav-list__item.wc-layered-nav-term a {
+	font-family: HelveticaNeueCyr-Roman;
+	color: #323232;
+	font-size: 16px;
+	margin-bottom: 0;
+	text-decoration: none;
+	/*text-transform: uppercase;*/
+}
+
+.form-check-label:hover,
+.cat-item a:hover,
+.woocommerce-widget-layered-nav-list__item.wc-layered-nav-term a:hover,
+.cat-item.current-cat a,
+.cat-item.current-cat span
+{
+	color: #ff5200;
+}
+
+.woocommerce-widget-layered-nav-list {
+	list-style: none;
+	padding-left: 0;
+}
+
+.woocommerce-widget-layered-nav-list li {
+	position: relative;
+}
+
+
+.woocommerce-widget-layered-nav-list__item.wc-layered-nav-term a:before,
+.woocommerce-widget-layered-nav-list__item.wc-layered-nav-term a:focus:before,
+.woocommerce-widget-layered-nav-list__item.wc-layered-nav-term.woocommerce-widget-layered-nav-list__item--chosen.chosen a:before {
+	content: '';
+	display: inline-block;
+	width: 18px;
+    height: 18px;
+    border: 1px solid #dddddd;
+	margin-right: 8px;
+	position: relative;
+	top: 3px;
+	
+}
+
+.woocommerce-widget-layered-nav-list__item.wc-layered-nav-term a:focus:after,
+.woocommerce-widget-layered-nav-list__item.wc-layered-nav-term.woocommerce-widget-layered-nav-list__item--chosen.chosen a:after {
+	content: '';
+	display: inline-block;
+    width: 10px;
+    height: 10px;
+	background-color: #79a236;
+	margin-right: 8px;
+	position: absolute;
+	left: 4px;
+    top: 12px;
+}
+
+.woocommerce-widget-layered-nav-list__item.wc-layered-nav-term.woocommerce-widget-layered-nav-list__item--chosen.chosen a:focus:after,
+.woocommerce-widget-layered-nav-list__item.wc-layered-nav-term.woocommerce-widget-layered-nav-list__item--chosen.chosen a:active:after {
+	opacity: 0;
+}
+/*** END ARCHIVE PRODUCT ***/
+
+
+/*** SINGLE PRODUCT ***/
+.woocommerce-Price-amount {
+	font-size: 24px;
+	font-weight: bold;
+	color: #25674a;
+}
+/*** END SINGLE PRODUCT ***/
+
+
+/*** ORDER SECTION ***/
+.order-section .col-md-6 {
+	padding-top: 145px;
+	padding-bottom: 145px;
+}
+
+.order-section img {
+	position: absolute;
+	bottom: 0;
+	left: 12%;
+}
+
+.order-section h2 {
+	max-width: 570px;
+	/* font-family: HelveticaNeueCyr-Bold; */
+	color: #323232;
+	font-size: 26px;
+}
+/*** END ORDER SECTION ***/
+
+
+/*** PORTFOLIO SECTIONS ***/
+.post-entry,
+.project-entry {
+	overflow: hidden;
+	position: relative;
+	display: block;
+}
+
+.project-entry a {
+	text-decoration: none;
+}
+
+.post-entry .figure,
+.project-entry .figure {
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.post-entry h3,
+.project-entry h3,
+.woocommerce-loop-category__title,
+.woocommerce-loop-product__title {
+    font-size: 18px;
+    line-height: 1.3;
+}
+
+.post-entry h3 a,
+.project-entry h3 a {
+    color: #000;
+}
+
+.post-entry img,
+.project-entry img {
+    -webkit-transition: .3s all ease;
+    -o-transition: .3s all ease;
+    transition: .3s all ease;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+}
+  
+.post-entry:hover img,
+.project-entry:hover img {
+    -webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05);
+}
+	
+.figure {
+  display: inline-block;
+}
+
+.figure img {
+	max-width: 100%;
+    height: auto;
+}
+  
+.post-entry .figure,
+.project-entry .figure {
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+/*** END PORTFOLIO SECTIONS ***/
+
+
+#background-msg {
+	background: black;
+	z-index: 9999;
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	opacity: 0.9;
+	cursor: pointer;
+}
+
+#message {
+	z-index: 9999;
+	max-width: 450px;
+	position: fixed;
+	top: 45%;
+	left: 0%;
+	right: 0%;
+	text-align: center;
+	font-size: 130%;
+	color: white;
+	margin: auto;
+}
+
+
+@media screen and (max-width: 575px) {
+	/* HEADER */
+	.header-padding-top {
+		padding-top: 100px;
+	}
+	/* END HEADER */
+}
